@@ -1,0 +1,28 @@
+-------------Adding parent------------
+URL : http://localhost:9000/user/add-parent
+Method : POST
+req_fields : role, student_id, institute_id
+
+
+-------------Get all parents------------
+URL : http://localhost:9000/user/parents
+Method : GET
+req_fields : none
+
+
+-------------Get single parent------------
+URL : http://localhost:9000/user/parent/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update parent------------
+URL : http://localhost:9000/user/upd-parent/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete parent------------
+URL : http://localhost:9000/user/del-parent/:id
+Method : DELETE
+req_fields : _id

@@ -1,0 +1,28 @@
+-------------Add category------------
+URL : http://localhost:9000/category/add
+Method : POST
+req_fields : name, thumbnail, level_id 
+
+
+-------------Get all categories------------
+URL : http://localhost:9000/category/
+Method : GET
+req_fields : none
+
+
+-------------Get single category------------
+URL : http://localhost:9000/category/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update category------------
+URL : http://localhost:9000/category/upd/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete category------------
+URL : http://localhost:9000/category/del/:id
+Method : DELETE
+req_fields : _id

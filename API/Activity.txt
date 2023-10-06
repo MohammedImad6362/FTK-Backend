@@ -1,0 +1,28 @@
+-------------Add activity------------
+URL : http://localhost:9000/activity/add
+Method : POST
+req_fields : name, thumbnail, category_id 
+
+
+-------------Get all activities------------
+URL : http://localhost:9000/activity/
+Method : GET
+req_fields : none
+
+
+-------------Get single activity------------
+URL : http://localhost:9000/activity/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update activity------------
+URL : http://localhost:9000/activity/upd/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete activity------------
+URL : http://localhost:9000/activity/del/:id
+Method : DELETE
+req_fields : _id

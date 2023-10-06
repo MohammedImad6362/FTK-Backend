@@ -1,0 +1,28 @@
+-------------Registering admin------------
+URL : http://localhost:9000/user/reg-admin
+Method : POST
+req_fields : email, password, role
+
+
+-------------Get all admins------------
+URL : http://localhost:9000/user/admins
+Method : GET
+req_fields : none
+
+
+-------------Get single admin------------
+URL : http://localhost:9000/user/admin/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update admin------------
+URL : http://localhost:9000/user/upd-admin/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete admin------------
+URL : http://localhost:9000/user/del-admin/:id
+Method : DELETE
+req_fields : _id

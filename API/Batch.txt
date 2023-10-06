@@ -1,0 +1,28 @@
+-------------Add batch------------
+URL : http://localhost:9000/batch/add
+Method : POST
+req_fields : name, level_id
+
+
+-------------Get all batchs------------
+URL : http://localhost:9000/batch/
+Method : GET
+req_fields : none
+
+
+-------------Get single batch------------
+URL : http://localhost:9000/batch/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update batch------------
+URL : http://localhost:9000/batch/upd/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete batch------------
+URL : http://localhost:9000/batch/del/:id
+Method : DELETE
+req_fields : _id

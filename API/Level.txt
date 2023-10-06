@@ -1,0 +1,28 @@
+-------------Add level------------
+URL : http://localhost:9000/level/add
+Method : POST
+req_fields : name
+
+
+-------------Get all levels------------
+URL : http://localhost:9000/level/
+Method : GET
+req_fields : none
+
+
+-------------Get single level------------
+URL : http://localhost:9000/level/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update level------------
+URL : http://localhost:9000/level/upd/:id
+Method : PATCH
+req_fields : _id, name
+
+
+-------------Delete level------------
+URL : http://localhost:9000/level/del/:id
+Method : DELETE
+req_fields : _id

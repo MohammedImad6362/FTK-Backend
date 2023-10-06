@@ -1,0 +1,28 @@
+-------------Adding student------------
+URL : http://localhost:9000/user/add-student
+Method : POST
+req_fields : role, batch_id, institute_id
+
+
+-------------Get all students------------
+URL : http://localhost:9000/user/students
+Method : GET
+req_fields : none
+
+
+-------------Get single student------------
+URL : http://localhost:9000/user/student/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update student------------
+URL : http://localhost:9000/user/upd-student/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete student------------
+URL : http://localhost:9000/user/-del-student/:id
+Method : DELETE
+req_fields : _id

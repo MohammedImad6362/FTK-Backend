@@ -1,0 +1,28 @@
+-------------Add institute------------
+URL : http://localhost:9000/institute/add
+Method : POST
+req_fields : name, subscription_type, subscripton_expiry 
+
+
+-------------Get all institutes------------
+URL : http://localhost:9000/institute/
+Method : GET
+req_fields : none
+
+
+-------------Get single institute------------
+URL : http://localhost:9000/institute/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update institute------------
+URL : http://localhost:9000/institute/upd/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete institute------------
+URL : http://localhost:9000/institute/del/:id
+Method : DELETE
+req_fields : _id

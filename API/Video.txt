@@ -1,0 +1,28 @@
+-------------Add video------------
+URL : http://localhost:9000/video/add
+Method : POST
+req_fields : url, category_id, description 
+
+
+-------------Get all videos------------
+URL : http://localhost:9000/video/
+Method : GET
+req_fields : none
+
+
+-------------Get single video------------
+URL : http://localhost:9000/video/:id
+Method : GET
+req_fields : _id
+
+
+-------------Update video------------
+URL : http://localhost:9000/video/upd/:id
+Method : PATCH
+req_fields : _id, other details which you want to update
+
+
+-------------Delete video------------
+URL : http://localhost:9000/video/del/:id
+Method : DELETE
+req_fields : _id
